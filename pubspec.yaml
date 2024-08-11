@@ -1,0 +1,34 @@
+name: examapp
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  cached_network_image: ^3.1.0
+  google_maps_flutter: ^2.1.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.10.0
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.jfif" 
+  adaptive_icon_background: "#ffffff" 
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/logo.jfif
+
+  uses-material-design: true
